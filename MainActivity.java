@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         // Instantiate the RequestQueue.
         RequestQueue queue = Volley.newRequestQueue(this);
-        String url = "https://binox.me/apis/getstuff";
+        String url = "https://xxx.xx";
 
 // Request a string response from the provided URL.
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
@@ -42,10 +42,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             protected Map<String, String> getParams() {
                 Map<String, String> params = new HashMap<String, String>();
-                params.put("token", "shdgbfkskbxand15");
-                params.put("wht", "49");
-                params.put("id2", "friend_email_ID");
-                params.put("id", "shintoishere@gmail.com");
+                params.put("xxx", "xx");
+                params.put("xxx", "xx");
+          ;
                 return params;
             }
 
